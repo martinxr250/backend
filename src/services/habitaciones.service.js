@@ -1,6 +1,6 @@
 import { sequelize } from "../databases/databases.js";
 import { ResourceNotFound } from "../errors/resource-not-found-error.js";
-import { HabitacionesModel } from '../models/habitaciones.js';
+import { HabitacionesModel } from '../models/Habitaciones.js';
 import { tipoHabitacionesModel } from '../models/TipoHabitaciones.js';
 
 // Obtener todas las habitaciones, incluyendo el tipo de habitación

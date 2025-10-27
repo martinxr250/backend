@@ -2,7 +2,7 @@ import { Sequelize } from 'sequelize';
 import mysql2 from 'mysql2'; // Importa el dialecto mysql, necesario para producción
 import { UsuariosModel } from "../models/Usuarios.js";
 import { tipoHabitacionesModel } from '../models/TipoHabitaciones.js';
-import { HabitacionesModel } from '../models/habitaciones.js';
+import { HabitacionesModel } from '../models/Habitaciones.js';
 import { ReservasModel } from '../models/Reservas.js';
 
 // Creando la cadena de conexión a la base de datos
