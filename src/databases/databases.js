@@ -9,10 +9,10 @@ import { ReservasModel } from '../models/Reservas.js';
 const sequelize = new Sequelize({
     dialect: "mysql",
     dialectModule: mysql2, // necesario para producción
-    host: "b0bjssbewgum5gcohagb-mysql.services.clever-cloud.com",
+    host: "bmai2yel1ulkml9tw3ns-mysql.services.clever-cloud.com",
     username: "ucj0z6x5yz7vanvh",
     password: "SoV9x5rkSFcf2d2eGE7H",
-    database: "b0bjssbewgum5gcohagb"
+    database: "bmai2yel1ulkml9tw3ns"
 });
 
 sequelize.define("usuarios", UsuariosModel.attributes, UsuariosModel.methods);
