@@ -1,4 +1,4 @@
-import app from "./src/app.js";
+import app from "./app.js";
 
 app.get("/", (req, res) => {
     const htmlResponse = '<html><head><title>Backend</title></head><body>API LEVANTADA</body></html>';
