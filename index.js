@@ -1,10 +1,9 @@
-import express from "express";
-
-const app = express();
+import app from "./src/app.js";
 
 app.get("/", (req, res) => {
-    res.send("API LEVANTADA");
-});
+    const htmlResponse = '<html><head><title>Backend</title></head><body>API LEVANTADA</body></html>';
+    res.send(htmlResponse);
+})
 
 // Solo iniciar el servidor en desarrollo local, no en Vercel
 if (process.env.NODE_ENV !== 'production') {
